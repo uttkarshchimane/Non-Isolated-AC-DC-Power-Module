@@ -1,0 +1,138 @@
+# ================================
+
+# KiCad - Core Ignore Rules
+
+# ================================
+
+# Auto-save & backup files
+
+*.kicad_prl
+*.kicad_pro-bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*-bak
+*.bak
+*.tmp
+*.temp
+*.swp
+
+# KiCad cache
+
+*.cache
+fp-info-cache
+
+# Netlists / intermediate files
+
+*.net
+*.xml
+*.dsn
+*.rpt
+
+# ================================
+
+# 3D & Export Files (optional)
+
+# ================================
+
+# Ignore these unless you specifically need them in repo
+
+*.step
+*.stp
+*.wrl
+
+# ================================
+
+# Fabrication Outputs (Gerbers)
+
+# ================================
+
+# Ignore for clean development repo
+
+*.gbr
+*.gbl
+*.gbo
+*.gbp
+*.gbs
+*.gtl
+*.gto
+*.gts
+*.drl
+*.gerber
+*.zip
+
+# Pick and place / drill outputs
+
+*.pos
+*.csv
+
+# ================================
+
+# OS Junk
+
+# ================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ================================
+
+# IDE / Editor
+
+# ================================
+
+.vscode/
+.idea/
+*.code-workspace
+
+# ================================
+
+# Logs & Debug
+
+# ================================
+
+*.log
+
+# ================================
+
+# Python (if automation scripts used)
+
+# ================================
+
+**pycache**/
+*.pyc
+
+# ================================
+
+# Build / Output folders
+
+# ================================
+
+build/
+dist/
+out/
+
+# ================================
+
+# Sensitive / Personal files
+
+# ================================
+
+.env
+*.key
+*.pem
+*.crt
+
+# ================================
+
+# KEEP THESE (DO NOT IGNORE)
+
+# ================================
+
+# ✔ .kicad_sch  (schematic)
+
+# ✔ .kicad_pcb  (PCB layout)
+
+# ✔ custom libraries (if any)
+
+# ✔ docs/images
