@@ -25,9 +25,8 @@ It includes:
 ## 📷 Project Preview
 
 ![3D PCB](docs/3d_render.png)
-![Schematic](docs/schematic.png)
 ![PCB Layout](docs/pcb_layout.png)
-
+![Schematic](docs/schematic.png)
 ---
 
 ## 🧠 Design Architecture (Key Stages)
