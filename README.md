@@ -107,16 +107,6 @@ This is a **non-isolated power supply**:
 
 ---
 
-## 🧪 Testing & Results
-
-- Output Voltage: ~5V DC  
-- Load: Low current  
-- Observations:
-- Stable output under light load  
-- Voltage drops under higher load (expected behavior)
-
----
-
 ## 🚀 Future Improvements
 
 - Replace with isolated SMPS design  
